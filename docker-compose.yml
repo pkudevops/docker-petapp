@@ -7,7 +7,7 @@ db:
   ports:
     - "3306"
 
-app:
+petclinic:
   build: .
   links:
     - db:mysql
